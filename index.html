@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Cosplay merchandise </title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + LeadMark main styles -->
+    <link rel="stylesheet" href="assets/css/leadmark.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+        <div class="container">
+            <a class="navbar-brand" href="https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka">
+                <img src="assets/imgs/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#merchandise">Merchandise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#partner">Partner </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testmonial">testmonial </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link ml-4 nav-link btn btn-primary btn-outline-light rounded" href="Login.html">LOGIN</a>
+                    </li>
+                    <li class="nav-item ">
+                        <button class="btn btn-outline-primary rounded" onclick="toggleMusic()" id="btn-playback" data-play="false">
+                            <i class="fa fa-play"></i>
+                            <span id="btn-text">BGM</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Second Navigation -->
+
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <button class="btn btn-outline-primary modal-toggle mb-4"><i class="ti-control-play text-danger" ></i> Watch Video</button>
+            <h1 class="subtitle">Anata no fantajī o jitsugen sa semasu</h1>
+            <h1 class="title">Chijō no tengoku</h1>
+            <audio id="audio" src="assets/audio/Mosawo.mp3"></audio>
+        </div>
+
+        <div class="shape">
+            <svg viewBox="0 0 1500 200">
+                <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z"/>
+            </svg>
+        </div>
+        <div class="mouse-icon">
+            <div class="wheel"></div>
+        </div>
+    </header>
+    <!-- End Of Page Header -->
+
+    <!-- modal -->
+    <div class="modalBox">
+        <div class="modalBox-body">
+            <iframe width="100%" height="450px" class="border-0" src="https://www.youtube.com/embed/31UsQccN8JQ">
+            </iframe>
+        </div>
+    </div>
+    <!-- end of modal -->
+
+    <!-- Service Section -->
+    <section id="service" class="section pt-0">
+        <div class="container">
+            <h6 class="section-title text-center">Service</h6>
+            <h6 class="section-subtitle text-center mb-5 pb-3">wujudkan fantasimu disini</h6>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">01</small>
+                            <h5 class="card-title mt-3"> Permintaan
+                                <h5>
+                                    <p class="mb-0">"Anata no fantajī o jitsugen sa semasu" yang mewujudkan fantasimu, kami melayani permintaan yang unik sekalipun selama itu bisa mewujudkan fantasi client. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">02</small>
+                            <h5 class="card-title mt-3">Diskusi
+                                <h5>
+                                    <p class="mb-0">kami melayani jasa diskusi , memberikan saran saran jika anda kebingungan tentang apa yang anda inginkan agar dapat mewujudkan fantasi client.
+                                    </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">03</small>
+                            <h5 class="card-title mt-3">Pengerjaan
+                                <h5>
+                                    <p class="mb-0">Proses pengerjaan kami cukup cepat, tapi proses juga tergantung dari keputusan clint, semakin cepat client memutuskan semakin cepat pengerjaan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End OF Service Section -->
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
+                    <h6 class="section-title mb-0">About Company</h6>
+                    <h6 class="section-subtitle mb-4">Fantasimu, Kewajiban kami</h6>
+                    <p>perusahaan ini berdiri pada tahun 2040 yang di dirikan oleh Muhammad Luqman. awal berdirinya perusahaan ini di karenakan keresahan sang pemilik perusaan mencari perusahan jasa yang bisa mewujudkan fantasinya.</p>
+                    <img src="assets/imgs/about.jpg" alt="" class="w-100 mt-3 shadow-sm">
+                </div>
+                <div class="col-md-6 pl-md-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/imgs/about-1.jpg" alt="" class="w-100 shadow-sm">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/imgs/about-2.jpg" alt="" class="w-100 shadow-sm">
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p>Kami di sini melayani semua permintaan dari client mulai yang biasa saja sampai yang luar biasa, selama itu masih bisa kita kerjakan akan kita laksanakan semaksimal mungkin </p>
+                            <p><b>Anda bertanya apa saja yang kami tawarkan di sini ?</b><br>
+                            </p>
+                            <p>salah satu focus terbesar Kami adalah fotografi cosplayer, kami menyediakan studio foto dan aksesoris pendukung fotografi. dan bukan hanyak untuk fotografi cosplay kami juga menerima jasa fotografi yang lain juga, indoor maupun
+                                outdoor
+                            </p>
+                            <p>ET.... bukan hanya itu kita juga menjual menjual berbagai merchandise di sini. kalau penasaran silahkan di lihat lihat..... karena "Fantasimu,Kewajiban kami" </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End OF About Section -->
+
+    <!-- merchandise Section -->
+    <section id="merchandise" class="section portfolio-section">
+        <div class="container">
+            <h6 class="section-title text-center">Merchandise</h6>
+            <h6 class="section-subtitle mb-5 text-center">merchandise terbaru dan terupdate</h6>
+            <div class="filters">
+                <a href="#" data-filter=".new" class="active">
+                    New
+                </a>
+                <a href="#" data-filter=".advertising">
+                    accessories
+                </a>
+                <a href="#" data-filter=".branding">
+                    decoration
+                </a>
+                <a href="#" data-filter=".web">
+                    cosplay
+                </a>
+            </div>
+            <div class="portfolio-container">
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">cosplay</h6>
+                                <p class="subtitle">cosplayer FotoShoot</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">cosplay</h6>
+                                <p class="subtitle">Kalender Custom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">accessories</h6>
+                                <p class="subtitle">Gantungan Kunci</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 web">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">cosplay</h6>
+                                <p class="subtitle">Album Cosplayer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 advertising">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">accessories</h6>
+                                <p class="subtitle">Pin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">cosplay</h6>
+                                <p class="subtitle">PhotoCard Cosplayer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">accessories</h6>
+                                <p class="subtitle">Bando</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">accessories</h6>
+                                <p class="subtitle">Anime Costume</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 branding new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">decoration</h6>
+                                <p class="subtitle">anime display stand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">decoration</h6>
+                                <p class="subtitle"> Anime Weapon Display</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">decoration</h6>
+                                <p class="subtitle">Action Figure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">decoration</h6>
+                                <p class="subtitle">Poster</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">decoration</h6>
+                                <p class="subtitle">Komik</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of merchandise section -->
+
+    <!-- Blog Section -->
+    <section class="section" id="partner">
+        <div class="container">
+            <h6 class="section-title mb-0 text-center">partner</h6>
+            <h6 class="section-subtitle mb-5 text-center">Partner cosplay Chijō no tengoku</h6>
+
+            <script>
+                var nama = [
+                    ["啊川 Azey", "senyamiku", "小柔SeeU", "Ely", "sugoi sugoi", "Billa Barbie", "Larissa Rochefort", "Clarissa Punipun", "Matcha Mei", "Kim Jung Hoon", "Alodia Gosiengfiao"],
+                    ["Cina", "Indonesia", "Korean", "Philippines"],
+                ];
+            </script>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr class="table-danger">
+                        <th scope="col">Name</th>
+                        <th scope="col">country</th>
+                        <th scope="col">social media</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][0]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][0]);
+                            </script>
+                        </td>
+                        <td><a href="https://twitter.com/azeycoser">@azeycoser</a></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][1]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][0]);
+                            </script>
+                        </td>
+                        <td><a href="https://twitter.com/senyamiku0">@senyamiku0</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][2]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][0]);
+                            </script>
+                        </td>
+                        <td><a href="https://twitter.com/seeu_cosplay">@seeu_cosplay</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][3]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][0]);
+                            </script>
+                        </td>
+                        <td><a href="https://www.instagram.com/eeelyeee/">@eeelyeee</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][4]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][0]);
+                            </script>
+                        </td>
+                        <td><a href="https://twitter.com/wudilieliez">@wudilieliez</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][5]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][1]);
+                            </script>
+                        </td>
+                        <td><a href="https://www.instagram.com/saybillaaa_/?hl=id">@saybillaaa_</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][6]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][1]);
+                            </script>
+                        </td>
+                        <td><a href="https://www.instagram.com/larissarochefort/?hl=id">@larissarochefort</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][7]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][1]);
+                            </script>
+                        </td>
+                        <td><a href="https://www.instagram.com/punipun7/?hl=id">@punipun7</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][8]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][1]);
+                            </script>
+                        </td>
+                        <td><a href="https://www.instagram.com/matchamei/?hl=id">@matchamei</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][9]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][2]);
+                            </script>
+                        </td>
+                        <td><a href="https://www.instagram.com/tomiaa/">@tomiaa</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <script>
+                                document.write(nama[0][10]);
+                            </script>
+                        </td>
+                        <td>
+                            <script>
+                                document.write(nama[1][3]);
+                            </script>
+                        </td>
+                        <td><a href="https://www.instagram.com/alodia/">@alodia</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- End of Blog Section -->
+
+    <!-- Testmonial Section -->
+    <section class="section" id="testmonial">
+        <div class="container">
+            <h6 class="section-title text-center mb-0">Testmonials</h6>
+            <h6 class="section-subtitle mb-5 text-center">What Our Clients Says</h6>
+            <div class="row">
+                <div class="col-md-4 my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media align-items-center mb-3">
+                                <img class="mr-3" src="assets/imgs/avatar.jpg" alt="">
+                                <div class="media-body">
+                                    <h6 class="mt-1 mb-0">John Doe</h6>
+                                    <small class="text-muted mb-0">Wibu baru</small>
+                                </div>
+                            </div>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media align-items-center mb-3">
+                                <img class="mr-3" src="assets/imgs/avatar-1.jpg" alt="">
+                                <div class="media-body">
+                                    <h6 class="mt-1 mb-0">Maria Garcia</h6>
+                                    <small class="text-muted mb-0">analis Wibu</small>
+                                </div>
+                            </div>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media align-items-center mb-3">
+                                <img class="mr-3" src="assets/imgs/avatar-2.jpg" alt="">
+                                <div class="media-body">
+                                    <h6 class="mt-1 mb-0">Mason Miller</h6>
+                                    <small class="text-muted mb-0">wibu akut</small>
+                                </div>
+                            </div>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Testmonial Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="section has-img-bg pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 my-3">
+                    <h6 class="mb-0">Phone</h6>
+                    <p class="mb-4">+ 123-456-7890</p>
+
+                    <h6 class="mb-0">Address</h6>
+                    <p class="mb-4">Jl.Masadepan kita no.1 Harus jadi</p>
+
+                    <h6 class="mb-0">Email</h6>
+                    <p class="mb-5">Chijōnotengoku@website.com</p>
+                    <p></p>
+                </div>
+                <div class="col-md-7">
+                    <form id="form">
+                        <h4 class="mb-4">Form question</h4>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <input id="name" type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <input id="email" type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="E-mail" required>
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <input id="subject" type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea id="message" name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Message" required></textarea>
+
+                            </div>
+                            <div class="form-group col-12 mb-0">
+                                <button id="submit" type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Page Footer -->
+            <footer class="mt-5 py-4 border-top border-secondary">
+                <p class="mb-0 small">&copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>, ManLuqman <a href="" target="_blank">Chijō no tengoku.</a>
+                    <a id="Coba"></a>
+                </p>
+            </footer>
+            <!-- End of Page Footer -->
+        </div>
+    </section>
+    <script>
+        document.getElementById("form").addEventListener("submit", auth);
+
+        function auth(event) {
+            event.preventDefault();
+
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var subject = document.getElementById("subject").value;
+            var message = document.getElementById("message").value;
+            console.log(name);
+
+            if (name === "") {
+                alert("Lengkapi Form");
+            } else if (email === "") {
+                alert("Lengkapi Form");
+            } else if (subject === "") {
+                alert("Lengkapi Form");
+            } else if (message === "") {
+                alert("Lengkapi Form"); 
+            } else {
+                alert("Terkirim");
+                window.location.replace("index.html");
+                return;
+            }
+        }
+    </script>
+    <script>
+        var Hari;
+        switch (new Date().getDay()) {
+            case 0:
+                Hari = "Minggu";
+                break;
+            case 1:
+                Hari = "Senin";
+                break;
+            case 2:
+                Hari = "Selasa";
+                break;
+            case 3:
+                Hari = "Rabu";
+                break;
+            case 4:
+                Hari = "Kamis";
+                break;
+            case 5:
+                Hari = "Jum'at";
+                break;
+            case 6:
+                Hari = "Sabtu";
+        }
+
+        document.getElementById("Coba").innerHTML = Hari;
+    </script>
+    <script>
+        const myAudio = document.getElementById("audio");
+        const btn = document.getElementById("btn-playback");
+        const btnIcon = document.querySelector("#btn-playback > i");
+        const btnText = document.getElementById("btn-text");
+
+        const toggleMusic = () => {
+            const dataPlay = btn.getAttribute('data-play');
+
+            if (dataPlay === 'false') {
+                btn.setAttribute('data-play', 'true');
+                myAudio.play();
+                btnIcon.classList.remove("fa-play");
+                btnIcon.classList.add("fa-pause");
+                btnText.innerText = "S";
+            } else {
+                btn.setAttribute('data-play', 'false');
+                myAudio.pause();
+                btnIcon.classList.remove("fa-pause");
+                btnIcon.classList.add("fa-play");
+                btnText.innerText = "P";
+            }
+        };
+
+        myAudio.onpause = () => {
+            btn.setAttribute('data-play', 'false');
+            myAudio.pause();
+            btnIcon.classList.remove("fa-pause");
+            btnIcon.classList.add("fa-play");
+            btnText.innerText = "P";
+        };
+        myAudio.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+            btnText.innerText = "S";
+        }, false);
+    </script>
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- LeadMark js -->
+    <script src="assets/js/leadmark.js"></script>
+
+</body>
+
+</html>
